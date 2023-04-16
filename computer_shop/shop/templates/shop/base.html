@@ -1,0 +1,44 @@
+{% load static %}
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="{% static 'shop/images/icon.svg' %}" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'shop/css/fontawesome-free-6.2.1-web/css/all.css' %}">
+    <link rel="stylesheet" href="{% static 'shop/css/style.css' %}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="mask">
+        <span class="loader"></span>
+    </div>
+    <div class="header-header">
+        <div class="header-header__menu">
+            <div class="menu-logo">
+                <img src="{% static 'shop/images/logo.svg' %}" alt="logo SAMAKAKI">
+            </div>
+            <div class="menu-links">
+                {% for item in menu %}
+                    <a href="{% url item.url_name %}" class="menu-link">{{ item.title|upper }}</a>
+                {% endfor %}
+            </div>
+            {% if user.is_authenticated %}
+                <a href="{% url 'logout' %}" class="menu-logreg">Logout</a>
+            {% else %}
+                <a href="{% url 'register' %}" class="menu-logreg">Sign up</a>
+            {% endif %}
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+    <div class="back-to-top">
+        <button><i class="fa-solid fa-up-long"></i></button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="{% static 'shop/js/script.js' %}"></script>
+</body>
+</html>

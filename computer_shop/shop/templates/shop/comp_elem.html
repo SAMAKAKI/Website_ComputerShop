@@ -1,0 +1,26 @@
+{% extends 'shop/base.html' %}
+    {% block title %}{{ title }}{% endblock %}
+    {% block content%}
+        <div class="main">
+            <div class="main-container">
+                <div class="component-other">
+                    <div class="component-price">
+                        <p>{{ component.price }} zł</p>
+                    </div>
+                    <div class="component-block-buy">
+                        <a href="#">Buy now <i class="fa-solid fa-money-bill-wave"></i></a>
+                        <a href="#">To basket <i class="fa-solid fa-basket-shopping"></i></a>
+                        <a href="#">Follow <i class="fa-solid fa-star"></i></a>
+                    </div>
+                </div>
+                <div class="component-flex-block">
+                    <div class="component-image">
+                        <img src="{{ component.photo.url }}" alt="{{ component.title }}">
+                    </div>
+                    <div class="component-title">
+                        <p>{{ component.content|linebreaks }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}

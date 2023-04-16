@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="740"
+   height="265"
+   viewBox="0 0 195.79166 70.114583"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.77147868"
+     inkscape:cx="397.28901"
+     inkscape:cy="146.47197"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="1920"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4289"
+       x="0"
+       y="0"
+       width="1"
+       height="1.1011637">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4279" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4281" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="0"
+         result="blur"
+         id="feGaussianBlur4283" />
+      <feOffset
+         dx="0"
+         dy="2.1"
+         result="offset"
+         id="feOffset4285" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4287" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g5438"
+       style="opacity:0.635344"
+       transform="translate(-5.9354248,-89.770633)">
+      <rect
+         style="fill:#006aff;fill-opacity:1;stroke-width:0.264583"
+         id="rect465"
+         width="35.651257"
+         height="32.715462"
+         x="14.994143"
+         y="94.953949"
+         ry="0" />
+      <rect
+         style="fill:#cc00ff;fill-opacity:1;stroke-width:0.264583"
+         id="rect465-0"
+         width="35.651257"
+         height="32.715462"
+         x="45.955734"
+         y="105.51556"
+         ry="0" />
+      <rect
+         style="fill:#ff0042;fill-opacity:1;stroke-width:0.209166"
+         id="rect465-0-6"
+         width="29.288359"
+         height="24.888037"
+         x="58.057617"
+         y="123.07652"
+         ry="0" />
+      <rect
+         style="fill:#00baff;fill-opacity:1;stroke-width:0.238942"
+         id="rect465-0-6-1"
+         width="29.835953"
+         height="31.882111"
+         x="76.519119"
+         y="109.73899"
+         ry="0" />
+      <rect
+         style="fill:#ffb400;fill-opacity:1;stroke-width:0.212559"
+         id="rect465-0-6-1-7"
+         width="38.22327"
+         height="19.693949"
+         x="102.36829"
+         y="112.85482"
+         ry="0" />
+      <rect
+         style="fill:#0100ff;fill-opacity:1;stroke-width:0.189116"
+         id="rect465-0-6-1-8"
+         width="40.59304"
+         height="14.679432"
+         x="98.388977"
+         y="130.66008"
+         ry="0" />
+      <rect
+         style="fill:#7eff00;fill-opacity:1;stroke-width:0.264583"
+         id="rect465-0-6-2"
+         width="35.651257"
+         height="32.715462"
+         x="26.420399"
+         y="122.83761"
+         ry="0" />
+      <rect
+         style="fill:#00ff7c;fill-opacity:1;stroke-width:0.230632"
+         id="rect465-0-6-2-6"
+         width="29.725594"
+         height="29.813463"
+         x="128.51489"
+         y="122.55502"
+         ry="0" />
+      <rect
+         style="fill:#ff0087;fill-opacity:1;stroke-width:0.236309"
+         id="rect465-6"
+         width="32.040062"
+         height="29.038246"
+         x="138.84747"
+         y="101.4125"
+         ry="0" />
+      <rect
+         style="fill:#e4f400;fill-opacity:1;stroke-width:0.264583"
+         id="rect2302"
+         width="35.651257"
+         height="32.715462"
+         x="156.5264"
+         y="123.23867"
+         ry="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:27.6779px;fill:#06283d;fill-opacity:1;stroke-width:2.30649;filter:url(#filter4289)"
+       x="21.526081"
+       y="47.727474"
+       id="text2306"><tspan
+         sodipodi:role="line"
+         id="tspan2304"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'BigBlue_Terminal_437TT Nerd Font';-inkscape-font-specification:'BigBlue_Terminal_437TT Nerd Font';fill:#06283d;fill-opacity:1;stroke-width:2.30649"
+         x="21.526081"
+         y="47.727474">SAMAKAKI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:'BigBlue_Terminal_437TT Nerd Font';-inkscape-font-specification:'BigBlue_Terminal_437TT Nerd Font';opacity:0.635344;fill:#000001;fill-opacity:1;stroke-width:0.264583"
+       x="172.88353"
+       y="65.261688"
+       id="text32396"><tspan
+         sodipodi:role="line"
+         id="tspan32394"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Noto Sans Mono CJK HK';-inkscape-font-specification:'Noto Sans Mono CJK HK';fill:#000001;fill-opacity:1;stroke-width:0.264583"
+         x="172.88353"
+         y="65.261688">SAMAKAKI</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,155 @@
+{% extends 'shop/base.html' %}
+    {% block title %}{{ title }}{% endblock %}
+    {% block content %}
+        <div class="main">
+            <div class="main-container">
+                <div class="main-header">
+                    <div class="main-header__info">
+                        <h1><span class="selected">SAMAKAKI</span> The best <br>computers shop in <br> the world.</h1>
+                        <p>Browse, choice and compare components <br> for your PC.</p>
+                        <a href="{% url 'shop' %}">Check all components</a>
+                    </div>
+                    <div class="main-header__graphic">
+                        <div class="small-graphic">
+                            <span class="red"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
+                            <div class="small-graphic__img">
+                                <i class="fa-solid fa-computer"></i>
+                            </div>
+                            <div class="small-graphic__text">
+                                <span class="text-big"></span>
+                                <span class="text-middle"></span>
+                                <span class="text-small"></span>
+                                <span class="text-small"></span>
+                                <span class="text-big"></span>
+                                <span class="text-middle"></span>
+                                <span class="text-middle"></span>
+                                <span class="text-small"></span>
+                                <span class="text-big"></span>
+                            </div>
+                        </div>
+                        <div class="middle-graphic">
+                            <span class="red"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
+                            <div class="middle-graphic__cards">
+                                <div class="graphic-item">
+                                    <i class="fa-solid fa-memory"></i>
+                                </div>
+                                <div class="graphic-item">
+                                    <i class="fa-solid fa-hard-drive"></i>
+                                </div>
+                                <div class="graphic-item">
+                                    <i class="fa-solid fa-tv"></i>
+                                </div>
+                                <div class="graphic-item">
+                                    <i class="fa-solid fa-microchip"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="big-graphic">
+                            <span class="red"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
+                            <div class="big-graphic__grid-container">
+                                <h2>Components</h2>
+                                <div class="grid-container__item"><i class="fa-solid fa-memory tcseso"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-microchip zzsdss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-hard-drive ttfcss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-microchip zzsdss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-memory tcseso"></i></div>
+                                <i class="fa-solid fa-caret-down more"></i>
+                                <div class="grid-container__item"><i class="fa-solid fa-memory tcseso"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-hard-drive ttfcss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-microchip zzsdss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-memory tcseso"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-hard-drive ttfcss"></i></div>
+                                <i class="fa-solid fa-caret-down more"></i>
+                                <div class="grid-container__item"><i class="fa-solid fa-memory tcseso"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-hard-drive ttfcss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-microchip zzsdss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-microchip zzsdss"></i></div>
+                                <div class="grid-container__item"><i class="fa-solid fa-memory tcseso"></i></div>
+                                <i class="fa-solid fa-caret-down more"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-header__data">
+                    <div class="data-counter">
+                        <h1>{{ total }}</h1>
+                        <p>Components, ready <br> for you to buy</p>
+                    </div>
+                    <div class="data-percent">
+                        <h1>100%</h1>
+                        <p>New components <br> in our shop</p>
+                    </div>
+                    <div class="data-users">
+                        <h1>{{ users }}</h1>
+                        <p>Users sing up and <br>connect to community</p>
+                    </div>
+                </div>
+                <div class="main-main">
+                    <div class="main-main__cards">
+                        <h1>CPU</h1>
+                        {% for item in cpu %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all CPU</a>
+                        <h1>GPU</h1>
+                        {% for item in gpu %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all GPU</a>
+                        <h1>Motherboards</h1>
+                        {% for item in motherboard %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all motherboards</a>
+                        <h1>RAM</h1>
+                        {% for item in ram %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all RAM</a>
+                        <h1>HDD / SDD discs</h1>
+                        {% for item in discs %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all discs</a>
+                        <h1>Cooling</h1>
+                        {% for item in cooling %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all cooling</a>
+                        <h1>Power supplies</h1>
+                        {% for item in power_supply %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all power supplies</a>
+                        <h1>Cases</h1>
+                        {% for item in case %}
+                            <div class="card-item">
+                                <img src="{{ item.photo.url }}" alt="{{ item.title }}">
+                            </div>
+                        {% endfor %}
+                        <a href="{% url 'shop' %}">See all cases</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
